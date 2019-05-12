@@ -3,7 +3,9 @@ The script must be run in the same working directory as the root directory of th
 The output file tidy_data.txt will be written to the current working directory, so it will appear in the root directory of the UCI HAR Dataset.
 
 The script performs the following steps:
+
 Read in all of the data using read.table()
+
 1. Merges the training and the test sets to create one data set
 
 This is done using rbind()
